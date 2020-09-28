@@ -16,17 +16,15 @@ readme = "README.md"
 default = ["surf/default"]
 
 [dependencies]
-sse-codec = "0.3.0"
-futures-core = "0.3.4"
+sse-codec = "0.3.2"
+futures-core = "0.3.5"
 futures-timer = "3.0.2"
-log = "0.4.8"
+log = "0.4.11"
 
 [dependencies.surf]
-version = "= 2.0.0-alpha.4"
-git = "https://github.com/fishrock123/surf"
-branch = "request-builder"
+version = "= 2.0.0-alpha.6"
 default-features = false
 
 [dev-dependencies]
-async-std = "1.1.0"
-futures-util = { version = "0.3.4", default-features = false }
+async-std = "1.6.5"
+futures-util = { version = "0.3.5", default-features = false }
